@@ -10,6 +10,8 @@ echo "Warning: .token file has too open permissions"
 fi
 fi
 
+umask 006    #change premissions for all new files
+
 export PATH="$PATH:/home/$USERNAME/usercommands"      #add a ptah with usermane
 
 echo "the date is:";date --iso-8601=seconds      #print date
