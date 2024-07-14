@@ -5,7 +5,7 @@ COURSE_ID="DevOpsTheHardWay"
 
 if [ -e ".token" ]; then
 PREMTOKEN=$(stat -c %a ".token")
-if [ "$PREMTOKEN" -ne "0006" ] ;  then
+if [ "$PREMTOKEN" -ne "600" ] ;  then
 echo "Warning: .token file has too open permissions"
 fi
 fi
