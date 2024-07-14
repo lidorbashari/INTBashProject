@@ -1,7 +1,7 @@
 USERNAME=$(whoami)
 echo "Hello $USERNAME"
 export COURSE_ID
-COURSE_ID = '__REPO_NAME__'
+COURSE_ID="__REPO_NAME__"
 
 if [ -e ".token" ]; then
 PREMTOKEN=$(stat -c %a ".token")
