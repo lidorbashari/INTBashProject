@@ -10,12 +10,11 @@ echo "Warning: .token file has too open permissions"
 fi
 fi
 
-
 umask 006
 echo umask
 export PATH="$PATH:/home/$USERNAME/usercommands"
 
-echo "the date is:" && date --iso-8601=seconds
+echo "the date is:";date --iso-8601=seconds
 
 alias ltxt='ls *.txt'
 
